@@ -19,9 +19,7 @@ $dark-cyan-hover: hsl(158, 42%, 18%);
 $br-medium: 43.75em; //700px
 $br-small: 25em; //400px
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
 *,
 *::before,
@@ -102,7 +100,7 @@ body {
     }
 
     &__name {
-        font-family: 'Fraunces';
+        font-family: 'Fraunces', serif;
         font-weight: 700;
         font-size: 3.2rem;
         line-height: 3.2rem;
@@ -140,7 +138,7 @@ body {
         }
 
         &-now {
-            font-family: 'Fraunces';
+            font-family: 'Fraunces', serif;
             font-weight: 700;
             font-size: 3.2rem;
             line-height: 3.2rem;
